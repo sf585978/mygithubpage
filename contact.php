@@ -26,42 +26,63 @@
   <body>
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <?php include('topmatter.php'); ?>
-    <div class="contact">
+    <div class="toprow">
       <div class="container">
         <div class="row">
           <div class="u-full-width">
-            <h1>Contact</h1>
+            <h2 class="siteheader">Sean A. Fischer</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="u-full-width">
-            <form>
-              <div class="row">
-                <div class="six columns">
-                  <label for="exampleEmailInput">Your email</label>
-                  <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="exampleEmailInput">
-                </div>
-                <div class="six columns">
-                  <label for="exampleRecipientInput">Reason for contacting</label>
-                  <select class="u-full-width" id="exampleRecipientInput">
-                    <option value="Option 1">Interogative</option>
-                    <option value="Option 2">Declarative</option>
-                    <option value="Option 3">Imperative</option>
-                  </select>
-                </div>
-              </div>
-              <label for="exampleMessage">Message</label>
-              <textarea class="u-full-width" placeholder="Hi Sean..." id="exampleMessage"></textarea>
-              <label class="example-send-yourself-copy">
-                <input type="checkbox">
-                <span class="label-body">Send a copy to yourself</span>
-              </label>
-              <input class="button-primary" type="submit" value="Submit">
-            </form>
-          </div>
+        <div class="u-full-width">
+          <h6 class="nav">
+          <nav class="u-full-width">
+            <ul>
+              <li class="nav"><a href="index.html" title="">Home</a></li>
+              <li class="nav"><a href="portfolio.php" title="">Portfolio</a></li>
+              <li class="nav"><a href="blog.php" title="">Blog</a></li>
+              <li class="nav"><a href="contact.php" title="">Contact</a></li>
+            </ul>
+          </nav>
+          </h6>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+  <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="u-full-width">
+          <h1>Contact</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="u-full-width">
+          <form>
+            <div class="row">
+              <div class="six columns">
+                <label for="exampleEmailInput">Your email</label>
+                <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="exampleEmailInput">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Reason for contacting</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">Interogative</option>
+                  <option value="Option 2">Declarative</option>
+                  <option value="Option 3">Imperative</option>
+                </select>
+              </div>
+            </div>
+            <label for="exampleMessage">Message</label>
+            <textarea class="u-full-width" placeholder="Hi Sean..." id="exampleMessage"></textarea>
+            <label class="example-send-yourself-copy">
+              <input type="checkbox">
+              <span class="label-body">Send a copy to yourself</span>
+            </label>
+            <input class="button-primary" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

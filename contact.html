@@ -38,9 +38,9 @@
           <nav class="u-full-width">
             <ul>
               <li class="nav"><a href="index.html" title="">Home</a></li>
-              <li class="nav"><a href="portfolio.php" title="">Portfolio</a></li>
-              <li class="nav"><a href="blog.php" title="">Blog</a></li>
-              <li class="nav"><a href="contact.php" title="">Contact</a></li>
+              <li class="nav"><a href="portfolio.html" title="">Portfolio</a></li>
+              <li class="nav"><a href="blog.html" title="">Blog</a></li>
+              <li class="nav"><a href="contact.html" title="">Contact</a></li>
             </ul>
           </nav>
           </h6>
@@ -48,59 +48,38 @@
       </div>
     </div>
   </div>
-  <div class="portfolio">
+  <div class="contact">
     <div class="container">
       <div class="row">
         <div class="u-full-width">
-          <h1>Portfolio</h1>
+          <h1>Contact</h1>
         </div>
       </div>
       <div class="row">
         <div class="u-full-width">
-          <h5>Writing</h5>
-        </div>
-      </div>
-      <div class="row">
-        <div class="u-full-width">
-          <h6>Journal Articles</h6>
-        </div>
-      </div>
-      <div class="row">
-        <div class="u-full-width">
-          <ul>
-            <li><a href="" title="">"From Bakhtin to Skyrim" - <em>Metamorphosis</em>, Spring 2014</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="u-full-width">
-          <h5>Code</h5>
-        </div>
-      </div>
-      <div class="row">
-        <div class="u-full-width">
-          <h6>R</h6>
-        </div>
-      </div>
-      <div class="row">
-        <div class="u-full-width">
-          <ul>
-            <li><a href="" title="">CanonicityR</a></li>
-            <li><a href="" title="">Semester Project MATH 340</a></li>
-            <li><a href="" title="">Semester Project BIOL 288</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="u-full-width">
-          <h6>MATLAB</h6>
-        </div>
-      </div>
-      <div class="row">
-        <div class="u-full-width">
-          <ul>
-            <li><a href="" title="">Final Projects MATH 230</a></li>
-          </ul>
+          <form>
+            <div class="row">
+              <div class="six columns">
+                <label for="exampleEmailInput">Your email</label>
+                <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="exampleEmailInput">
+              </div>
+              <div class="six columns">
+                <label for="exampleRecipientInput">Reason for contacting</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">Interogative</option>
+                  <option value="Option 2">Declarative</option>
+                  <option value="Option 3">Imperative</option>
+                </select>
+              </div>
+            </div>
+            <label for="exampleMessage">Message</label>
+            <textarea class="u-full-width" placeholder="Hi Sean..." id="exampleMessage"></textarea>
+            <label class="example-send-yourself-copy">
+              <input type="checkbox">
+              <span class="label-body">Send a copy to yourself</span>
+            </label>
+            <input class="button-primary" type="submit" value="Submit">
+          </form>
         </div>
       </div>
     </div>
