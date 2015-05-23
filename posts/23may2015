@@ -49,21 +49,26 @@
       </div>
     </div>
   </div>
-  <div class="blog">
+  <div class="post">
     <div class="container">
       <div class="row">
         <div class="u-full-width">
-          <h1>Blog</h1>
+          <div class="title">
+            <h1>Trip Back in Time, Hopefully I Am Not Too Late</h1>
+            <h6>A Review of <i>The Girl With the Dragon Tattoo</i></h6>
+            <hr />
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="u-full-width">
-          <ul>
-            <li><a href="posts/23may2015.html" title="">Trip Back in Time, Hopefully I Am Not Too Late</a></li>
-          </ul>
+          <div class="content">
+            <p></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </body>
 </html>
