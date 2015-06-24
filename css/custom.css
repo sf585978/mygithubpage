@@ -25,3 +25,7 @@ img.coverphoto {
 .table-data-left{
 	text-align: left
 }
+.important-data{
+	color: red;
+	font-weight: bold
+}
