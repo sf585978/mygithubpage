@@ -19,3 +19,9 @@ img.coverphoto {
 .table-data-right{
 	text-align: right
 }
+.table-data-center{
+	text-align: center
+}
+.table-data-left{
+	text-align: left
+}
