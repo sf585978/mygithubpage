@@ -160,7 +160,7 @@
           transition-timing-function: ease;
 }
 .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before, .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
-  content: '';
+  content: attr(data-footnote-number);
   position: absolute;
   width: 100%;
   z-index: 12;
