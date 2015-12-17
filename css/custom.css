@@ -33,6 +33,8 @@ img.coverphoto {
 	padding: 5%
 }
 .contact-links{
-	display: inline;
+	text-align: center
+}
+.contact{
 	text-align: center
 }
