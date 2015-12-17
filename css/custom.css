@@ -32,3 +32,7 @@ img.coverphoto {
 .main-content{
 	padding: 5%
 }
+.contact-links{
+	display: inline;
+	text-align: center
+}
