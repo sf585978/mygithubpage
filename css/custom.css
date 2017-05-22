@@ -1,0 +1,47 @@
+.nav {
+position: fixed;
+z-index: 9998;
+width: 100%;
+background-color: #ffffff;
+top: 0px
+margin-bottom:50px
+}
+.container{
+text-align: left;
+padding: 10px auto 10px auto;
+margin-left: auto;
+margin-right: auto
+}
+img.coverphoto {
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+.table-data-right{
+text-align: right
+}
+.table-data-center{
+text-align: left
+}
+.table-data-left{
+text-align: left
+}
+.important-data{
+color: red;
+font-weight: bold
+}
+.main-content{
+margin-top: 200px;
+}
+.contact-links{
+text-align: left
+}
+.contact{
+text-align: left
+}
+.anchor{
+  display: block;
+  height: 200px; /*same height as header*/
+  margin-top: -200px; /*same height as header*/
+  visibility: hidden;
+}
