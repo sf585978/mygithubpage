@@ -9,7 +9,7 @@
 }
 
 .nav {
-position: fixed;
+/*position: fixed;*/
 z-index: 9998;
 width: 100%;
 background-color: #fbd2e4;
