@@ -1,0 +1,93 @@
+---
+title: "Could an NBA Team Score 200 Points?"
+author: "Sean Fischer"
+date: "January 30, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The Problem
+If you're a fan of the NBA or have been following along for the last month or so, you have been witness to some of the best basketball performances in some time. James Harden has scored at least 30 points in 24 straight games and averaged over 40 points per game for the month of January. But, while this individual scoring feat has been impressive in its own right, we have seen an incredible stretch of team scoring performances.
+
+Since January 14th, 17 teams have scored at least 130 points, most in games that did not go to overtime. The high point over this stretch was the Sixers' 149 in four quarters against the Timberwolves on January 15th, but the Hawks, Warriors (2x), Nets, Rockets, and Pelicans also all reached at least 140 points over that stretch. 
+
+This outpouring of offense led a friend of mine to ask whether it was in the realm of possiblity that a team could score 200 points in a game and just what such a game would look like. 
+
+## A Solution
+My initial reaction was to say the problem hinged on shooting percentage, the distribution of shots between twos and threes, and the number of free throws a team could make.
+
+Yet, the more we talked about the problem, the more we felt the problem actually hinged on the pace of play and how efficiently a team could use its possessions. Efficiency here means not just not turning the ball over, but really how many points a team could average per a possession.
+
+A stereotype around the league is that the faster a team plays the less efficient it performs, in part because it produces more turnovers, thus logging 0 points for the possession. So, by intuition, a team would need to overcome this stereotypical response to playing faster, thus making them a gross overachiever. When we plot the stats for this season we see that teams that play slower tend to turn the ball over less, although there definitely seems to be a collection of teams that averages just over 100 possessions but keeps there turnover rate down. However, there is definitely some evidence that faster play leads to an increased turnover rate as we see the regression line trending upwards in Panel A below. This relationship, though, is driven quite a bit by Atlanta, which plays very fast, but also turns the ball over at a higher rate than any other team in the league. Plenty of teams that have a high number of possessions per game manage to keep their turnover rate around or below the league average. The statistics back this up, as pace alone does not significantly predict or correlate with turnover percentage.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, out.extra='style = "display: block; margin-left: auto; margin-right: auto;"'}
+library(ggplot2)
+library(ggrepel)
+library(dplyr)
+library(cowplot)
+team_abrev <- read.csv("nba_team_abrv.csv")
+team_adv_stats <- read.csv("nba_team_adv.csv")
+team_adv_stats <- team_adv_stats %>% inner_join(team_abrev)
+p1 <- ggplot(team_adv_stats, aes(x = Pace, y = TOV.)) +
+  geom_smooth(method = "lm", fill = "gray80", colour = "orange") +
+  geom_text_repel(aes(label = Abbreviation), force = 2) +
+  geom_point() +
+  theme_minimal() +
+  ylab("Turnover Percentage") +
+  xlab("Possessions Per Game") +
+  ggtitle("The Relationship between Pace and Turnover Rate") +
+  # labs(caption = "Data from Basketball-Reference") +
+  theme(title = element_text(face = "italic", size = 12),
+        axis.title = element_text(face = "plain", size = 10),
+        panel.grid.minor = element_blank())
+
+player_age_weights <- read.csv("nba_age_weighted_no_vince.csv")
+team_ave_age <- player_age_weights %>%
+  group_by(Team) %>%
+  summarise(ave_age = weighted.mean(Age, w = WEIGHT),
+            med_age = median(Age))
+
+team_adv_stats <- team_adv_stats %>% inner_join(team_ave_age)
+
+# team_adv_stats$interact <- team_adv_stats$Pace * team_adv_stats$ave_age
+
+p2 <- ggplot(team_adv_stats, aes(x = ave_age, y = TOV.)) +
+  geom_smooth(method = "lm", fill = "gray80", colour = "orange") +
+  geom_text_repel(aes(label = Abbreviation), force = 2) +
+  geom_point() +
+  theme_minimal() +
+  ylab("Turnover Percentage") +
+  xlab("Avg. Team Age (Weighted by Minutes Played)") +
+  ggtitle("The Relationship between Age and Turnover Rate") +
+  labs(caption = "Data from Basketball-Reference") +
+  theme(title = element_text(face = "italic", size = 12),
+        axis.title = element_text(face = "plain", size = 10),
+        panel.grid.minor = element_blank())
+
+cowplot::plot_grid(p1, p2, align = "h", labels = "AUTO", ncol = 1)
+```
+
+Another common explanation for an increase in turnover percentage is the average age of a team. Coaches will frequently point out that their teams are young and are learning to adjust to NBA defenses and game flows, thus leading to more turnovers. Does this hold up? When we consider the average age of each team, weighted by how much each player has played so far this year, we find that older teams turn the ball over at a lower rate than younger teams. The pattern here is similar in magnitude to that between pace and turnover rate, but, obviously, in the opposite direction. Again, though, the actual correlation is not statistically significant.
+
+Even so, without statistical significance we can see that there is some small difference between teams at each end of these spectrums. (It is likely that these differences are small and that the analyses are underpowered.) Importantly, it appears that teams we qualitatively understand to be good, notably the Thunder and Milwaukee, that manage to play quickly and relatively cleanly with younger rosters. That young players *can* learn to play fast and clean is essential as the evidence suggests that older teams play slower, as we see in the figure below.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, out.extra='style = "display: block; margin-left: auto; margin-right: auto;"'}
+library(ggplot2)
+
+ggplot(team_adv_stats, aes(x = ave_age, y = Pace)) +
+  geom_smooth(method = "lm", fill = "gray80", colour = "orange") +
+  geom_text_repel(aes(label = Abbreviation), force = 2) +
+  geom_point() +
+  theme_minimal() +
+  ylab("Possessions Per Game") +
+  xlab("Avg. Team Age (Weighted by Minutes Played)") +
+  ggtitle("The Relationship between Age and Pace") +
+  labs(caption = "Data from Basketball-Reference") +
+  theme(title = element_text(face = "italic", size = 12),
+        axis.title = element_text(face = "plain", size = 10),
+        panel.grid.minor = element_blank())
+```
+

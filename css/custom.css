@@ -1,8 +1,18 @@
+@font-face {
+    font-family: big_john;
+    src: url(../fonts/big_john_slim_joe/big_john.otf);
+}
+
+@font-face {
+    font-family: noir_light;
+    src: url(../fonts/noir/NoirPro-Light.ttf);
+}
+
 .nav {
 position: fixed;
 z-index: 9998;
 width: 100%;
-background-color: #ffffff;
+background-color: #fbd2e4;
 top: 0px
 margin-bottom:50px
 }
@@ -44,4 +54,50 @@ text-align: left
   height: 200px; /*same height as header*/
   margin-top: -200px; /*same height as header*/
   visibility: hidden;
+}
+
+ body {
+  background-color:  #fbd2e4 ;
+  font-family: noir_light;
+}
+
+details summary{
+	text-decoration: underline;
+	color:  #C70039 ;
+}
+
+details summary:hover {
+  background-color: #e8daef ;
+  margin-right:-20px;
+
+padding-left:20px;
+
+padding-right:20px;
+}
+
+details {
+	padding-bottom: 1em;
+}
+a:hover{
+	background-color: #e8daef ;
+	color:  #C70039 ;
+}
+a {
+	color:  #C70039 ;
+}
+
+h2 {
+	font-family: big_john;
+}
+
+h3 {
+	font-family: big_john;
+}
+
+h4 {
+	font-family: big_john;
+}
+
+h5 {
+	font-family: big_john;
 }

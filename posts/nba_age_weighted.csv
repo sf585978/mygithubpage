@@ -1,0 +1,516 @@
+Team,Age,MP,G,WEIGHT
+Milwaukee Bucks,24,33.3,46,1531.8
+Milwaukee Bucks,27,21.1,47,991.7
+Milwaukee Bucks,26,29.4,45,1323
+Milwaukee Bucks,29,29.3,49,1435.7
+Milwaukee Bucks,30,27.9,49,1367.1
+Milwaukee Bucks,32,21.1,24,506.4
+Milwaukee Bucks,31,17.9,37,662.3
+Milwaukee Bucks,22,17.7,21,371.7
+Milwaukee Bucks,26,17.6,31,545.6
+Milwaukee Bucks,27,17,49,833
+Milwaukee Bucks,23,16,38,608
+Milwaukee Bucks,22,15.6,23,358.8
+Milwaukee Bucks,28,13.4,14,187.6
+Milwaukee Bucks,21,11.7,35,409.5
+Milwaukee Bucks,28,8.1,12,97.2
+Milwaukee Bucks,23,7.3,4,29.2
+Milwaukee Bucks,32,6.7,6,40.2
+Milwaukee Bucks,23,5.3,7,37.1
+Toronto Raptors,27,35.1,38,1333.8
+Toronto Raptors,32,34.3,41,1406.3
+Toronto Raptors,24,31.3,51,1596.3
+Toronto Raptors,31,29.3,50,1465
+Toronto Raptors,29,28.8,48,1382.4
+Toronto Raptors,24,26.8,46,1232.8
+Toronto Raptors,21,20.4,41,836.4
+Toronto Raptors,26,18.8,30,564
+Toronto Raptors,25,18.5,30,555
+Toronto Raptors,26,18.3,46,841.8
+Toronto Raptors,31,14.2,38,539.6
+Toronto Raptors,28,11,35,385
+Toronto Raptors,23,8.8,5,44
+Toronto Raptors,28,8.2,26,213.2
+Toronto Raptors,26,5.5,15,82.5
+Toronto Raptors,25,4.8,5,24
+Toronto Raptors,23,4.7,22,103.4
+Indiana Pacers,26,31.9,36,1148.4
+Indiana Pacers,29,31.7,49,1553.3
+Indiana Pacers,30,30,49,1470
+Indiana Pacers,22,28.1,44,1236.4
+Indiana Pacers,31,27.6,49,1352.4
+Indiana Pacers,27,25.4,49,1244.6
+Indiana Pacers,22,25,47,1175
+Indiana Pacers,29,20.6,44,906.4
+Indiana Pacers,27,17.4,49,852.6
+Indiana Pacers,22,10.6,30,318
+Indiana Pacers,21,7.9,28,221.2
+Indiana Pacers,28,7.2,27,194.4
+Indiana Pacers,23,6.2,10,62
+Indiana Pacers,22,2.9,11,31.9
+Indiana Pacers,23,2.4,5,12
+Indiana Pacers,20,2,3,6
+Philadelphia 76ers,28,33.8,13,439.4
+Philadelphia 76ers,22,33.4,50,1670
+Philadelphia 76ers,24,33.4,47,1569.8
+Philadelphia 76ers,29,32,29,928
+Philadelphia 76ers,34,31,49,1519
+Philadelphia 76ers,24,30.5,13,396.5
+Philadelphia 76ers,31,26.6,35,931
+Philadelphia 76ers,32,24.8,5,124
+Philadelphia 76ers,20,22.5,19,427.5
+Philadelphia 76ers,27,22,44,968
+Philadelphia 76ers,26,21.1,45,949.5
+Philadelphia 76ers,21,20.1,51,1025.1
+Philadelphia 76ers,21,14.4,41,590.4
+Philadelphia 76ers,23,12.6,25,315
+Philadelphia 76ers,31,9.6,37,355.2
+Philadelphia 76ers,22,8.8,12,105.6
+Philadelphia 76ers,24,6.5,6,39
+Philadelphia 76ers,22,4.5,2,9
+Boston Celtics,26,32.6,43,1401.8
+Boston Celtics,20,31.1,50,1555
+Boston Celtics,32,28.4,40,1136
+Boston Celtics,29,27.4,46,1260.4
+Boston Celtics,24,26.7,49,1308.3
+Boston Celtics,22,26,45,1170
+Boston Celtics,28,25.9,45,1165.5
+Boston Celtics,24,22.9,50,1145
+Boston Celtics,26,14.9,37,551.3
+Boston Celtics,32,14.9,32,476.8
+Boston Celtics,24,10.6,36,381.6
+Boston Celtics,21,9,22,198
+Boston Celtics,29,8.7,22,191.4
+Boston Celtics,23,5.8,27,156.6
+Boston Celtics,22,2.5,4,10
+Brooklyn Nets,24,29.7,14,415.8
+Brooklyn Nets,27,29.6,48,1420.8
+Brooklyn Nets,22,29.6,51,1509.6
+Brooklyn Nets,25,28.6,49,1401.4
+Brooklyn Nets,20,26.7,50,1335
+Brooklyn Nets,26,26.1,28,730.8
+Brooklyn Nets,32,25,40,1000
+Brooklyn Nets,25,22.7,14,317.8
+Brooklyn Nets,24,22.6,41,926.6
+Brooklyn Nets,33,22,43,946
+Brooklyn Nets,20,20.9,35,731.5
+Brooklyn Nets,29,18.4,51,938.4
+Brooklyn Nets,27,17.2,40,688
+Brooklyn Nets,23,13.8,9,124.2
+Brooklyn Nets,29,9.8,12,117.6
+Brooklyn Nets,26,9.5,2,19
+Brooklyn Nets,26,9,1,9
+Brooklyn Nets,19,3.7,7,25.9
+Miami Heat,25,34.5,46,1587
+Miami Heat,22,29.2,43,1255.6
+Miami Heat,32,29.1,14,407.4
+Miami Heat,27,26.2,46,1205.2
+Miami Heat,29,25.7,42,1079.4
+Miami Heat,26,25.6,40,1024
+Miami Heat,37,25.4,39,990.6
+Miami Heat,21,22,48,1056
+Miami Heat,31,21.6,23,496.8
+Miami Heat,31,21.2,32,678.4
+Miami Heat,27,19.6,45,882
+Miami Heat,21,18.1,37,669.7
+Miami Heat,27,18,10,180
+Miami Heat,24,7.3,4,29.2
+Miami Heat,38,4.7,3,14.1
+Charlotte Hornets,28,34.3,49,1680.7
+Charlotte Hornets,30,30.9,49,1514.1
+Charlotte Hornets,26,29,46,1334
+Charlotte Hornets,32,27.9,48,1339.2
+Charlotte Hornets,26,24.5,35,857.5
+Charlotte Hornets,25,19.7,42,827.4
+Charlotte Hornets,20,19,47,893
+Charlotte Hornets,36,18.5,43,795.5
+Charlotte Hornets,20,18.4,46,846.4
+Charlotte Hornets,26,14.7,24,352.8
+Charlotte Hornets,24,14.2,41,582.2
+Charlotte Hornets,23,14,1,14
+Charlotte Hornets,23,12.6,27,340.2
+Charlotte Hornets,25,11.4,23,262.2
+Charlotte Hornets,23,10.6,23,243.8
+Detroit Pistons,29,36.4,47,1710.8
+Detroit Pistons,25,33.1,46,1522.6
+Detroit Pistons,27,30.8,40,1232
+Detroit Pistons,28,28.9,49,1416.1
+Detroit Pistons,30,23.2,25,580
+Detroit Pistons,27,21.8,47,1024.6
+Detroit Pistons,22,20.3,31,629.3
+Detroit Pistons,22,20,42,840
+Detroit Pistons,22,20,44,880
+Detroit Pistons,34,14.7,39,573.3
+Detroit Pistons,37,14.3,41,586.3
+Detroit Pistons,25,14.1,30,423
+Detroit Pistons,22,12.5,2,25
+Detroit Pistons,29,11.1,31,344.1
+Detroit Pistons,22,8.6,14,120.4
+Detroit Pistons,29,6,1,6
+Detroit Pistons,26,4,1,4
+Washington Wizards,33,37.6,20,752
+Washington Wizards,25,37.2,50,1860
+Washington Wizards,28,34.5,32,1104
+Washington Wizards,25,29,38,1102
+Washington Wizards,32,27.5,48,1320
+Washington Wizards,23,26,29,754
+Washington Wizards,29,26,34,884
+Washington Wizards,33,25.6,9,230.4
+Washington Wizards,27,23.9,50,1195
+Washington Wizards,26,23.6,29,684.4
+Washington Wizards,21,19.1,40,764
+Washington Wizards,24,16.4,22,360.8
+Washington Wizards,25,15,20,300
+Washington Wizards,32,14.4,29,417.6
+Washington Wizards,25,11.3,4,45.2
+Washington Wizards,32,10.8,12,129.6
+Washington Wizards,23,8,4,32
+Washington Wizards,19,7.4,27,199.8
+Washington Wizards,26,6.5,2,13
+Washington Wizards,27,4.5,11,49.5
+Washington Wizards,26,2,3,6
+Orlando Magic,23,33.7,47,1583.9
+Orlando Magic,28,31.3,50,1565
+Orlando Magic,26,31.2,50,1560
+Orlando Magic,31,28.1,50,1405
+Orlando Magic,27,26.5,51,1351.5
+Orlando Magic,21,25.5,45,1147.5
+Orlando Magic,29,20.6,41,844.6
+Orlando Magic,26,17.6,44,774.4
+Orlando Magic,24,16.7,37,617.9
+Orlando Magic,20,16.4,46,754.4
+Orlando Magic,22,10.6,26,275.6
+Orlando Magic,26,8.9,20,178
+Orlando Magic,24,8.4,28,235.2
+Orlando Magic,22,5.3,3,15.9
+Orlando Magic,23,4.5,2,9
+Orlando Magic,25,4,1,4
+Atlanta Hawks,21,30,33,990
+Atlanta Hawks,20,29.9,49,1465.1
+Atlanta Hawks,24,27.5,28,770
+Atlanta Hawks,29,27.4,35,959
+Atlanta Hawks,20,27,45,1215
+Atlanta Hawks,24,25.3,49,1239.7
+Atlanta Hawks,29,24.7,39,963.3
+Atlanta Hawks,25,20,45,900
+Atlanta Hawks,30,20,44,880
+Atlanta Hawks,21,16.9,32,540.8
+Atlanta Hawks,42,16.4,45,738
+Atlanta Hawks,25,13.5,18,243
+Atlanta Hawks,23,11.6,17,197.2
+Atlanta Hawks,30,9.6,18,172.8
+Atlanta Hawks,22,9.6,26,249.6
+Atlanta Hawks,25,8.9,25,222.5
+Atlanta Hawks,22,4.8,9,43.2
+Chicago Bulls,29,34.9,38,1326.2
+Chicago Bulls,23,33.9,45,1525.5
+Chicago Bulls,21,31.4,28,879.2
+Chicago Bulls,24,30.8,25,770
+Chicago Bulls,23,27.1,38,1029.8
+Chicago Bulls,19,25.2,44,1108.8
+Chicago Bulls,24,25.1,50,1255
+Chicago Bulls,23,23.6,20,472
+Chicago Bulls,22,20.3,44,893.2
+Chicago Bulls,24,19,12,228
+Chicago Bulls,25,17.3,42,726.6
+Chicago Bulls,24,17.3,31,536.3
+Chicago Bulls,30,16.7,43,718.1
+Chicago Bulls,22,14.7,39,573.3
+Chicago Bulls,26,9.5,31,294.5
+Chicago Bulls,21,2,2,4
+Chicago Bulls,23,1,1,1
+New York Knicks,26,32.7,45,1471.5
+New York Knicks,19,27.3,42,1146.6
+New York Knicks,23,26.8,49,1313.2
+New York Knicks,22,26.6,39,1037.4
+New York Knicks,26,26.3,42,1104.6
+New York Knicks,24,24.9,40,996
+New York Knicks,23,22.2,42,932.4
+New York Knicks,20,21.3,41,873.3
+New York Knicks,26,20.5,32,656
+New York Knicks,23,18.5,41,758.5
+New York Knicks,26,18,1,18
+New York Knicks,20,16.9,34,574.6
+New York Knicks,30,16.2,22,356.4
+New York Knicks,23,15.2,23,349.6
+New York Knicks,33,13.3,12,159.6
+New York Knicks,25,9.7,11,106.7
+Cleveland Cavaliers,30,34,4,136
+Cleveland Cavaliers,23,31.9,50,1595
+Cleveland Cavaliers,27,29.8,35,1043
+Cleveland Cavaliers,20,29.7,52,1544.4
+Cleveland Cavaliers,27,28.4,32,908.8
+Cleveland Cavaliers,26,27.4,44,1205.6
+Cleveland Cavaliers,32,26.5,13,344.5
+Cleveland Cavaliers,26,26.4,51,1346.4
+Cleveland Cavaliers,26,25.3,42,1062.6
+Cleveland Cavaliers,33,20.2,11,222.2
+Cleveland Cavaliers,24,19.6,9,176.4
+Cleveland Cavaliers,28,19,23,437
+Cleveland Cavaliers,24,18.8,9,169.2
+Cleveland Cavaliers,23,17.7,3,53.1
+Cleveland Cavaliers,25,16.9,24,405.6
+Cleveland Cavaliers,26,16.4,21,344.4
+Cleveland Cavaliers,37,15.7,16,251.2
+Cleveland Cavaliers,22,15.7,36,565.2
+Cleveland Cavaliers,24,14.4,10,144
+Cleveland Cavaliers,25,13.4,16,214.4
+Cleveland Cavaliers,35,10.3,26,267.8
+Cleveland Cavaliers,21,8.8,6,52.8
+Cleveland Cavaliers,30,1,1,1
+Golden State Warriors,30,35.5,50,1775
+Golden State Warriors,28,34.2,50,1710
+Golden State Warriors,30,34.2,39,1333.8
+Golden State Warriors,28,31.3,35,1095.5
+Golden State Warriors,35,23.4,45,1053
+Golden State Warriors,28,21.8,5,109
+Golden State Warriors,22,21,50,1050
+Golden State Warriors,31,19,47,893
+Golden State Warriors,23,17.1,24,410.4
+Golden State Warriors,33,15.4,39,600.6
+Golden State Warriors,25,15,42,630
+Golden State Warriors,26,14.5,41,594.5
+Golden State Warriors,26,11.9,17,202.3
+Golden State Warriors,24,11.1,45,499.5
+Golden State Warriors,22,6.1,7,42.7
+Golden State Warriors,21,4.3,23,98.9
+Denver Nuggets,21,33.5,47,1574.5
+Denver Nuggets,23,31.3,48,1502.4
+Denver Nuggets,24,29.7,31,920.7
+Denver Nuggets,33,25.5,41,1045.5
+Denver Nuggets,28,24.6,10,246
+Denver Nuggets,23,24.3,47,1142.1
+Denver Nuggets,23,24.1,49,1180.9
+Denver Nuggets,28,22.9,44,1007.6
+Denver Nuggets,22,22.8,49,1117.2
+Denver Nuggets,28,19.7,49,965.3
+Denver Nuggets,23,18.9,47,888.3
+Denver Nuggets,33,9.3,4,37.2
+Denver Nuggets,22,4.1,19,77.9
+Denver Nuggets,19,4,1,4
+Denver Nuggets,23,3.7,13,48.1
+Denver Nuggets,22,3.7,9,33.3
+Denver Nuggets,25,3.1,7,21.7
+Oklahoma City Thunder,28,36,49,1764
+Oklahoma City Thunder,30,35.5,42,1491
+Oklahoma City Thunder,25,34.1,48,1636.8
+Oklahoma City Thunder,24,32.2,50,1610
+Oklahoma City Thunder,25,28.5,49,1396.5
+Oklahoma City Thunder,20,23.4,42,982.8
+Oklahoma City Thunder,25,19.3,30,579
+Oklahoma City Thunder,29,14.6,50,730
+Oklahoma City Thunder,24,14.2,46,653.2
+Oklahoma City Thunder,20,12.2,41,500.2
+Oklahoma City Thunder,34,11.1,15,166.5
+Oklahoma City Thunder,25,9.5,32,304
+Oklahoma City Thunder,25,8.7,15,130.5
+Oklahoma City Thunder,23,5.9,21,123.9
+Oklahoma City Thunder,21,1,1,1
+Portland Trail Blazers,28,35.3,50,1765
+Portland Trail Blazers,27,34.1,50,1705
+Portland Trail Blazers,28,29.7,51,1514.7
+Portland Trail Blazers,24,27.4,51,1397.4
+Portland Trail Blazers,30,24.2,50,1210
+Portland Trail Blazers,25,21.7,31,672.7
+Portland Trail Blazers,21,18.5,51,943.5
+Portland Trail Blazers,28,17.7,45,796.5
+Portland Trail Blazers,24,16.7,40,668
+Portland Trail Blazers,25,15.3,44,673.2
+Portland Trail Blazers,26,14.4,47,676.8
+Portland Trail Blazers,21,8.1,17,137.7
+Portland Trail Blazers,22,5.8,15,87
+Portland Trail Blazers,19,5.7,10,57
+Portland Trail Blazers,20,4.7,7,32.9
+Houston Rockets,29,37.4,47,1757.8
+Houston Rockets,26,36,13,468
+Houston Rockets,33,35.5,50,1775
+Houston Rockets,24,34.2,42,1436.4
+Houston Rockets,30,32.9,39,1283.1
+Houston Rockets,33,32.6,28,912.8
+Houston Rockets,29,30.8,5,154
+Houston Rockets,34,29.4,10,294
+Houston Rockets,25,24.8,25,620
+Houston Rockets,28,23.1,36,831.6
+Houston Rockets,33,21,46,966
+Houston Rockets,28,19,2,38
+Houston Rockets,24,15.4,34,523.6
+Houston Rockets,36,13.2,24,316.8
+Houston Rockets,27,9.8,12,117.6
+Houston Rockets,27,9.1,16,145.6
+Houston Rockets,20,8,23,184
+Houston Rockets,22,8,2,16
+Houston Rockets,21,6.7,15,100.5
+Houston Rockets,23,1,1,1
+San Antonio Spurs,29,35.4,48,1699.2
+San Antonio Spurs,33,32.6,52,1695.2
+San Antonio Spurs,25,28.7,52,1492.4
+San Antonio Spurs,32,27.2,42,1142.4
+San Antonio Spurs,24,25.3,43,1087.9
+San Antonio Spurs,30,23.6,52,1227.2
+San Antonio Spurs,32,22.5,50,1125
+San Antonio Spurs,26,20.6,46,947.6
+San Antonio Spurs,31,16.3,47,766.1
+San Antonio Spurs,23,15,48,720
+San Antonio Spurs,38,13.6,21,285.6
+San Antonio Spurs,20,7.3,4,29.2
+San Antonio Spurs,30,5.6,37,207.2
+San Antonio Spurs,21,5.3,21,111.3
+San Antonio Spurs,21,3.9,12,46.8
+Utah Jazz,22,33.2,47,1560.4
+Utah Jazz,26,31.7,51,1616.7
+Utah Jazz,31,31.3,51,1596.3
+Utah Jazz,28,28.6,44,1258.4
+Utah Jazz,28,27.5,50,1375
+Utah Jazz,27,23.2,50,1160
+Utah Jazz,37,20.4,29,591.6
+Utah Jazz,25,18.3,51,933.3
+Utah Jazz,23,16.3,39,635.7
+Utah Jazz,27,15.8,17,268.6
+Utah Jazz,26,12,19,228
+Utah Jazz,34,11.1,26,288.6
+Utah Jazz,23,10.5,23,241.5
+Utah Jazz,21,9,1,9
+Utah Jazz,25,7.2,37,266.4
+Utah Jazz,31,5.8,30,174
+Utah Jazz,25,4,7,28
+Utah Jazz,24,2,5,10
+Los Angeles Clippers,26,34.6,51,1764.6
+Los Angeles Clippers,30,31.3,44,1377.2
+Los Angeles Clippers,28,29.8,45,1341
+Los Angeles Clippers,30,26.4,51,1346.4
+Los Angeles Clippers,20,26.1,51,1331.1
+Los Angeles Clippers,25,26,51,1326
+Los Angeles Clippers,32,25.6,45,1152
+Los Angeles Clippers,34,16.3,44,717.2
+Los Angeles Clippers,32,15.3,4,61.2
+Los Angeles Clippers,30,13.9,48,667.2
+Los Angeles Clippers,30,10.3,32,329.6
+Los Angeles Clippers,24,10.2,39,397.8
+Los Angeles Clippers,31,10,15,150
+Los Angeles Clippers,21,8.3,15,124.5
+Los Angeles Clippers,23,7.4,11,81.4
+Los Angeles Clippers,24,5.2,34,176.8
+Los Angeles Lakers,34,34.6,34,1176.4
+Los Angeles Lakers,23,33,47,1551
+Los Angeles Lakers,21,33,40,1320
+Los Angeles Lakers,21,30.3,47,1424.1
+Los Angeles Lakers,23,27,51,1377
+Los Angeles Lakers,32,26.8,17,455.6
+Los Angeles Lakers,25,24.1,51,1229.1
+Los Angeles Lakers,31,22.1,44,972.4
+Los Angeles Lakers,36,18.2,37,673.4
+Los Angeles Lakers,28,15.5,50,775
+Los Angeles Lakers,21,15.1,30,453
+Los Angeles Lakers,23,12.7,7,88.9
+Los Angeles Lakers,21,11,37,407
+Los Angeles Lakers,30,10.9,23,250.7
+Los Angeles Lakers,21,6.4,18,115.2
+Los Angeles Lakers,19,4,7,28
+Los Angeles Lakers,24,4,5,20
+Sacramento Kings,26,31.6,50,1580
+Sacramento Kings,21,31.6,49,1548.4
+Sacramento Kings,25,28.5,50,1425
+Sacramento Kings,26,28.1,38,1067.8
+Sacramento Kings,28,26,39,1014
+Sacramento Kings,30,24,49,1176
+Sacramento Kings,19,23.5,36,846
+Sacramento Kings,23,21.3,49,1043.7
+Sacramento Kings,24,15.9,18,286.2
+Sacramento Kings,25,14.5,40,580
+Sacramento Kings,29,12.9,28,361.2
+Sacramento Kings,20,12.5,37,462.5
+Sacramento Kings,24,11.9,32,380.8
+Sacramento Kings,22,9,11,99
+Sacramento Kings,25,8.3,19,157.7
+Minnesota Timberwolves,29,36.1,10,361
+Minnesota Timberwolves,28,34.7,22,763.4
+Minnesota Timberwolves,23,34.5,46,1587
+Minnesota Timberwolves,23,33.2,50,1660
+Minnesota Timberwolves,30,30.3,31,939.3
+Minnesota Timberwolves,30,29,38,1102
+Minnesota Timberwolves,33,25.3,49,1239.7
+Minnesota Timberwolves,24,22.8,36,820.8
+Minnesota Timberwolves,20,22.1,42,928.2
+Minnesota Timberwolves,22,20.3,43,872.9
+Minnesota Timberwolves,30,18.1,13,235.3
+Minnesota Timberwolves,33,14.9,34,506.6
+Minnesota Timberwolves,20,13.5,50,675
+Minnesota Timberwolves,33,11.7,11,128.7
+Minnesota Timberwolves,23,9.6,7,67.2
+Minnesota Timberwolves,28,8.1,8,64.8
+Minnesota Timberwolves,23,5.4,5,27
+Minnesota Timberwolves,28,4.9,13,63.7
+New Orleans Pelicans,25,37,41,1517
+New Orleans Pelicans,28,36.8,51,1876.8
+New Orleans Pelicans,24,29.6,47,1391.2
+New Orleans Pelicans,29,29.4,44,1293.6
+New Orleans Pelicans,27,28.9,32,924.8
+New Orleans Pelicans,24,26.9,19,511.1
+New Orleans Pelicans,28,24.6,46,1131.6
+New Orleans Pelicans,27,21.2,32,678.4
+New Orleans Pelicans,28,18.7,39,729.3
+New Orleans Pelicans,31,15,25,375
+New Orleans Pelicans,20,13.7,36,493.2
+New Orleans Pelicans,27,12.9,34,438.6
+New Orleans Pelicans,23,12.7,32,406.4
+New Orleans Pelicans,22,9.7,33,320.1
+New Orleans Pelicans,24,8,15,120
+New Orleans Pelicans,24,6.3,6,37.8
+Dallas Mavericks,26,32.3,45,1453.5
+Dallas Mavericks,19,32.1,48,1540.8
+Dallas Mavericks,30,31.2,49,1528.8
+Dallas Mavericks,32,29.9,43,1285.7
+Dallas Mavericks,21,28.4,31,880.4
+Dallas Mavericks,25,24.4,49,1195.6
+Dallas Mavericks,34,19.8,38,752.4
+Dallas Mavericks,27,18.8,44,827.2
+Dallas Mavericks,22,16.7,41,684.7
+Dallas Mavericks,27,16.2,45,729
+Dallas Mavericks,35,14.8,37,547.6
+Dallas Mavericks,40,10,18,180
+Dallas Mavericks,32,6.1,14,85.4
+Dallas Mavericks,28,5.9,19,112.1
+Dallas Mavericks,23,2,2,4
+Dallas Mavericks,21,1,1,1
+Memphis Grizzlies,34,33.7,50,1685
+Memphis Grizzlies,31,33.6,50,1680
+Memphis Grizzlies,32,31.2,49,1528.8
+Memphis Grizzlies,25,29.7,42,1247.4
+Memphis Grizzlies,29,26.5,13,344.5
+Memphis Grizzlies,19,25.8,51,1315.8
+Memphis Grizzlies,28,22.8,38,866.4
+Memphis Grizzlies,28,22.7,49,1112.3
+Memphis Grizzlies,23,20,3,60
+Memphis Grizzlies,23,18.3,18,329.4
+Memphis Grizzlies,30,15.3,3,45.9
+Memphis Grizzlies,23,15,17,255
+Memphis Grizzlies,30,14.4,36,518.4
+Memphis Grizzlies,24,14.2,32,454.4
+Memphis Grizzlies,30,13.3,29,385.7
+Memphis Grizzlies,33,13,23,299
+Memphis Grizzlies,28,7,1,7
+Memphis Grizzlies,21,6.8,21,142.8
+Memphis Grizzlies,24,6.5,8,52
+Memphis Grizzlies,24,5,1,5
+Memphis Grizzlies,27,1,1,1
+Phoenix Suns,22,34.6,40,1384
+Phoenix Suns,33,34,26,884
+Phoenix Suns,25,31.6,43,1358.8
+Phoenix Suns,20,30.8,47,1447.6
+Phoenix Suns,23,27.3,22,600.6
+Phoenix Suns,22,27,53,1431
+Phoenix Suns,27,26.5,19,503.5
+Phoenix Suns,21,23.3,53,1234.9
+Phoenix Suns,20,20.5,33,676.5
+Phoenix Suns,30,18.5,15,277.5
+Phoenix Suns,21,18.2,35,637
+Phoenix Suns,38,18,43,774
+Phoenix Suns,25,16.4,47,770.8
+Phoenix Suns,27,13.2,27,356.4
+Phoenix Suns,36,12.7,7,88.9
+Phoenix Suns,28,12.3,10,123
+Phoenix Suns,21,12.1,20,242
+Phoenix Suns,22,11.5,4,46
+Phoenix Suns,22,10,2,20
+Phoenix Suns,25,6,1,6
+Phoenix Suns,27,5,1,5
