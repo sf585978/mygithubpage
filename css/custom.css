@@ -106,7 +106,7 @@ h5 {
   nav {
     display: none;
   }
-  .container{
-  	padding: 5px auto 5px auto;
+  .nav {
+  	margin-bottom:25px
   }
 }
