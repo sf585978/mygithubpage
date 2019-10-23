@@ -103,9 +103,9 @@ h5 {
 }
 
 @media (max-width: 1080px) {
-  nav {
+/*  nav {
     display: none;
-  }
+  }*/
   .nav {
   	margin-bottom:10px;
   	position: static;
