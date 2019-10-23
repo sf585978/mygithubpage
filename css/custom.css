@@ -101,3 +101,9 @@ h4 {
 h5 {
 	font-family: big_john;
 }
+
+@media (max-width: 1080px) {
+  nav {
+    display: none;
+  }
+}
