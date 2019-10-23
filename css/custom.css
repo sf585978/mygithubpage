@@ -107,6 +107,6 @@ h5 {
     display: none;
   }
   .container{
-  	position: relative;
+  	padding: 5px auto 5px auto;
   }
 }
